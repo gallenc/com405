@@ -71,7 +71,7 @@ Having forked the repository, go to your own github account and clone the reposi
 Rather than just clone the repository into a workspace on your IDE, it is good practice to create a separate folder on your local machine where you will clone your remote repositories. 
 You can import separate projects from this clone into your IDE workspace as you need to work on them.
 
-Create a git repo folder on your local drive and clone your fork of solent2Public into it.
+Create a git repo folder on your local drive and clone your fork of com405 into it.
 
 On the university machines, you need to use the C: drive to checkout your work because the U drive doesnt work very well with IDEs. to do this, open a file explorer. 
 * Set the view to show hidden files and file extensions.
@@ -112,10 +112,11 @@ Once you have forked a repository you can open or create new projects in it with
 * right click on the projects pane
 * select import project
 * browse to your project folder
-* select the project to open and
+* select the project to open and open it
+![alt text](../master/docs/images/importProject.png "Figure importProject.png")
 
 ### create a new project
-* you can create a plane java project or a meven project
-
+* you can create a plane java project or a maven project
+![alt text](../master/docs/images/createProject.png "Figure createProject.png")
 
 
