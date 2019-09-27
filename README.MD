@@ -1,6 +1,19 @@
-## COM405 top tips GIT
+## COM405 top tips GIT and installing your own software
 
 Git is a version control system written by Linus Torvalds, the creator of Linux.
+We are using it to store our work so that it can be access from any compute with git installed.
+
+For this class you will need the following software installed on your machines. 
+The University machines have them but if using you own machine, install the following:
+
+Java SE 8u221 JDK https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
+(use dk-8u221-windows-x64.exe on windows or jdk-8u221-macosx-x64.dmg on MAC)
+
+Netbeans 8 https://netbeans.org/downloads/8.0.2/ 
+(use the Java EE version)
+
+Git for windows https://git-scm.com/
+(make sure you have the windows command line version (bash) )
 
 ## Getting Started with GIT
 Before doing anything else you will need to follow these getting started instructions.
@@ -58,7 +71,14 @@ Having forked the repository, go to your own github account and clone the reposi
 Rather than just clone the repository into a workspace on your IDE, it is good practice to create a separate folder on your local machine where you will clone your remote repositories. 
 You can import separate projects from this clone into your IDE workspace as you need to work on them.
 
-Create a git repo folder on your local drive and clone your fork of solent2Public into it.
+Create a git repo folder on your local drive and clone your fork of com405 into it.
+
+On the university machines, you need to use the C: drive to checkout your work because the U drive doesnt work very well with IDEs. to do this, open a file explorer. 
+* Set the view to show hidden files and file extensions.
+* Navigate to C:\Users and open the folder with your username
+* Create a temporary folder called gitrepos and cd into it
+* Right click inside the folder and open the GIT bash folder
+
 ```
 mkdir gitrepos
 cd gitrepos
@@ -84,4 +104,19 @@ git add --all
 git commit -m 'write a first commit message'
 git push
 ```
+
+## Opening a project with netbeans
+Once you have forked a repository you can open or create new projects in it with netbeans
+
+### open an existing project
+* right click on the projects pane
+* select import project
+* browse to your project folder
+* select the project to open and open it
+![alt text](../master/docs/images/importProject.png "Figure importProject.png")
+
+### create a new project
+* you can create a plane java project or a maven project
+![alt text](../master/docs/images/createProject.png "Figure createProject.png")
+
 
