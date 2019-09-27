@@ -1,6 +1,16 @@
 ## COM405 top tips GIT
 
 Git is a version control system written by Linus Torvalds, the creator of Linux.
+We are using it to store our work so that it can be access from any compute with git installed.
+
+For this class you will need the following software installed on your machines. 
+The University machines have them but if using you own machine, install the following:
+
+Java SE 8u221 JDK https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
+(use dk-8u221-windows-x64.exe on windows or jdk-8u221-macosx-x64.dmg on MAC)
+
+Netbeans 8 https://netbeans.org/downloads/8.0.2/ 
+(use the Java EE version)
 
 ## Getting Started with GIT
 Before doing anything else you will need to follow these getting started instructions.
