@@ -106,5 +106,16 @@ git push
 ```
 
 ## Opening a project with netbeans
+Once you have forked a repository you can open or create new projects in it with netbeans
+
+### open an existing project
+* right click on the projects pane
+* select import project
+* browse to your project folder
+* select the project to open and
+
+### create a new project
+* you can create a plane java project or a meven project
+
 
 
