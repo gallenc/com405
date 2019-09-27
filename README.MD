@@ -1,4 +1,4 @@
-## COM405 top tips GIT
+## COM405 top tips GIT and installing your own software
 
 Git is a version control system written by Linus Torvalds, the creator of Linux.
 We are using it to store our work so that it can be access from any compute with git installed.
@@ -11,6 +11,9 @@ Java SE 8u221 JDK https://www.oracle.com/technetwork/java/javase/downloads/jdk8-
 
 Netbeans 8 https://netbeans.org/downloads/8.0.2/ 
 (use the Java EE version)
+
+Git for windows https://git-scm.com/
+(make sure you have the windows command line version (bash) )
 
 ## Getting Started with GIT
 Before doing anything else you will need to follow these getting started instructions.
@@ -69,6 +72,13 @@ Rather than just clone the repository into a workspace on your IDE, it is good p
 You can import separate projects from this clone into your IDE workspace as you need to work on them.
 
 Create a git repo folder on your local drive and clone your fork of solent2Public into it.
+
+On the university machines, you need to use the C: drive to checkout your work because the U drive doesnt work very well with IDEs. to do this, open a file explorer. 
+* Set the view to show hidden files and file extensions.
+* Navigate to C:\Users and open the folder with your username
+* Create a temporary folder called gitrepos and cd into it
+* Right click inside the folder and open the GIT bash folder
+
 ```
 mkdir gitrepos
 cd gitrepos
@@ -94,4 +104,7 @@ git add --all
 git commit -m 'write a first commit message'
 git push
 ```
+
+## Opening a project with netbeans
+
 
